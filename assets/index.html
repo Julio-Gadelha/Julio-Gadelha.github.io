@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,10 +18,34 @@
   </head>
   <body>
     <header class="header">
-      <div id="header__brand"></div>
+      <nav class="header__nav">
+        <ul class="menu menu--principal">
+          <li class="menu__item">
+            <a class="menu__link active" href="#home">
+              <span class="menu__text">Home</span>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="pProjetos">
+              <span class="menu__text">Projetos</span>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#sobre">
+              <span class="menu__text">Sobre</span>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#contato">
+              <span class="menu__text">Contato</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div id=""></div>
     </header>
-
- <ul class="menu menu--mobile">
+    <nav class="nav--mobile">
+      <ul class="menu menu--mobile">
         <li class="menu__item">
           <a class="menu__link active" href="#home">
             <i class="menu__icon bi bi-house-door"></i>
@@ -29,7 +53,7 @@
           </a>
         </li>
         <li class="menu__item">
-          <a class="menu__link " href="pProjetos">
+          <a class="menu__link" href="pProjetos">
             <i class="menu__icon bi bi-window-stack"></i>
             <span class="menu__text">Projetos</span>
           </a>
@@ -48,7 +72,48 @@
         </li>
       </ul>
     </nav>
+    <main>
+      <div class="main_content1">
+        <h1><b>Soluções Criativas &</b>  Desenvolvedor Full Stack</h1>
+        <p>Julio Gabriel,Fortaleza-CE, Desenvolvedor Full Stack</p>
+        <ul class="menu menu--social">
+          <li>
+            <a class="menu__link">
+              <i class="menu__icon bi bi-github"></i>
+            </a>
+          </li>
+          <li>
+            <a class="menu__link" href="">
+              <i class="menu__icon bi bi-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a class="menu__link" href="">
+              <i class="menu__icon bi bi-instagram"></i>
+            </a>
+          </li>
+        </ul>
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class=" bi bi-arrow-down-right"></i>
+        </button>
+      </div>
+    </main>
+    <section class="habilidades">
+      <h2>Conhecimentos nas principais linguagens de tecnologia do mercado</h2>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </section>
+    <footer>
+      <p>
+        © 2023. Todos os Direitos Reservados. Julio Gabriel. Desenvolvido por
+        <a href="https://github.com/Julio-Gadelha"> EA </a>
+      </p>
+    </footer>
 
-    <h1>Julio Gabriel</h1>
+    <script src="./assets/js/app.js"></script>
   </body>
 </html>
